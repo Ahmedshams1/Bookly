@@ -4,7 +4,6 @@ import 'package:bookly/core/utils/App_rauter.dart';
 import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 
 class BestSellerItem extends StatelessWidget {
@@ -34,7 +33,7 @@ class BestSellerItem extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 30,
             ),
             Expanded(
@@ -51,14 +50,14 @@ class BestSellerItem extends StatelessWidget {
                           .copyWith(fontFamily: KGtSectrafine),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 3,
                   ),
-                  Text(
+                  const Text(
                     'J.K. Rowling',
                     style: Styles.textStyle14,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 3,
                   ),
                   Row(
