@@ -3,7 +3,6 @@ import 'package:bookly/Features/home/data/presentation/views/widgets/book_rating
 import 'package:bookly/Features/home/data/presentation/views/widgets/custom_book_image.dart';
 import 'package:bookly/constants.dart';
 import 'package:bookly/core/utils/App_rauter.dart';
-import 'package:bookly/core/utils/assets.dart';
 import 'package:bookly/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
